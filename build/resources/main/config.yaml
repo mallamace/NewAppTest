@@ -1,0 +1,34 @@
+########################################################################################
+#                                                                                      #
+#      This is just a Hello World Test.                                                #
+#                                                                                      #
+########################################################################################
+
+debug: false
+bot:
+  # Name of your bot
+  name: "New App Test Bot"
+
+  # Current version of your bot
+  version: "0.1"
+
+# Application - API Settings
+api:
+  # Twitch Application Client Id
+  twitch_client_id: inkFPaGZ1ptJpzsjT1lLLlMiTCT1erZZyGJBs25kGEM
+  #inkFPaGZ1ptJpzsjT1lLLlMiTCT1erZZyGJBs25kGEM=
+
+  # Twitch Application Client Secret
+  twitch_client_secret: ivzqkkktjif6os7sfsmijhetymocud
+# ivzqkkktjif6os7sfsmijhetymocud
+
+
+# Credentials
+credentials:
+  # OAuth Token for IRC USer (You can get yours here: http://twitchapps.com/tmi/)
+  irc: 7wo3az91iyr3gp10gsqd4r952v6tdy
+# oauth:7wo3az91iyr3gp10gsqd4r952v6tdy
+
+# Channels - The bot will connect to all listed channels
+channels:
+  - fifthnail
