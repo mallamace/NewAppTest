@@ -34,7 +34,7 @@ public class Main {
                 .withEnableHelix(true)
                 .withEnableChat(true)
                 .build();
-        //endregion
+        ///endregion
 
         twitchClient.getChat().sendMessage("fifthnail", "Hello, world!");
 
