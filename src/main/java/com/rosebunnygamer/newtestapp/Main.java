@@ -25,17 +25,18 @@ public class Main {
         TwitchClientBuilder clientBuilder = TwitchClientBuilder.builder();
         OAuth2Credential credential = new OAuth2Credential(  //region Auth
                 "twitch",
-                "oauth: example "
+                "oauth:s9vpxiwr18tbcvmyri0491y9q3r248"
         );  //endregion
 
         //region TwitchClient
         TwitchClient twitchClient = TwitchClientBuilder.builder()
+                .withChatAccount(credential)
                 .withEnableHelix(true)
                 .withEnableChat(true)
                 .build();
         //endregion
 
-        twitchClient.getChat().sendMessage("rosebunnygamer", "Hello, world!");
+        twitchClient.getChat().sendMessage("fifthnail", "Hello, world!");
 
         //System.out.println("OK OK OK OK ");
     }

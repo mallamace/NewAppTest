@@ -25,8 +25,8 @@ api:
 # Credentials
 credentials:
   # OAuth Token for IRC USer (You can get yours here: http://twitchapps.com/tmi/)
-  irc: YOUR_IRC_TOKEN
+  irc: s9vpxiwr18tbcvmyri0491y9q3r248
 
 # Channels - The bot will connect to all listed channels
-channels: fifthnail
-  - YOUR_CHANNEL
+channels:
+  - fifthnail
